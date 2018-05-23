@@ -23,6 +23,11 @@ header {
   align-items: center;
 }
 
+h2,
+h4 {
+  color: white;
+}
+
 .logo {
   display: flex;
   height: 50px;
@@ -41,4 +46,24 @@ header {
   display: inline-block;
   width: 200px;
   height: 50px;
+}
+
+.content-container {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+
+.mission-container {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.mission {
+  background-color: blue;
 }
