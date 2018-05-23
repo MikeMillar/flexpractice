@@ -2,3 +2,43 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: lightblue;
+}
+
+div,
+span {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  background-color: whitesmoke;
+  border-bottom: 1px solid black;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.nav {
+  display: flex;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nav span {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
